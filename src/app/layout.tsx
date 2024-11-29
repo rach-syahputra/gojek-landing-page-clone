@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import './globals.css'
+import Navbar from '@/components/sections/Navbar'
 
 const maisonNeueBold = localFont({
   src: './fonts/MaisonNeueBold.woff',
@@ -46,6 +47,7 @@ export default function RootLayout({
       <body
         className={`${maisonNeueBold.variable} ${maisonNeueBook.variable} ${maisonNeueDemi.variable} ${maisonNeueExtendedBold.variable} antialiased`}
       >
+        <Navbar />
         {children}
       </body>
     </html>

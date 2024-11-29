@@ -6,3 +6,8 @@
   --background: #101820;
   --primary: #00880d;
 }
+
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
