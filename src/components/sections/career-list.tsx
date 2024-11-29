@@ -2,8 +2,8 @@ import CareerCard from '../partials/career-card'
 
 export default function CareerList() {
   return (
-    <section className='flex w-screen items-center justify-center bg-background'>
-      <div className='w-full rounded-tl-[80px] rounded-tr-[80px] bg-white pb-12'>
+    <section className='flex items-center justify-center bg-background'>
+      <div className='flex w-full flex-col items-center justify-center gap-8 rounded-tl-[80px] rounded-tr-[80px] bg-white pb-12'>
         <div className='mx-auto mt-[-76px] grid items-start md:w-10/12 md:grid-cols-4'>
           <CareerCard
             imageSrc='/achievement-1.svg'
@@ -28,6 +28,12 @@ export default function CareerList() {
             title='Digitising merchants'
             description='Resulted in 80% growth in number of GoFood merchants during pandemic'
           />
+        </div>
+        <div className='flex gap-2 md:hidden'>
+          <div className='bg-primary h-2 w-2 rounded-full'></div>
+          <div className='h-2 w-2 rounded-full bg-gray-400'></div>
+          <div className='h-2 w-2 rounded-full bg-gray-400'></div>
+          <div className='h-2 w-2 rounded-full bg-gray-400'></div>
         </div>
       </div>
     </section>
