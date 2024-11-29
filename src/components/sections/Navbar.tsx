@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import NavLinks from '../partials/NavLinks'
-import Hamburger from '../elements/Hamburger'
+import NavLinks from '../partials/nav-links'
+import Hamburger from '../elements/hamburger'
 
 export default function Navbar() {
   return (

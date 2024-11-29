@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import './globals.css'
-import Navbar from '@/components/sections/Navbar'
+import Navbar from '@/components/sections/navbar'
 
 const maisonNeueBold = localFont({
   src: './fonts/MaisonNeueBold.woff',

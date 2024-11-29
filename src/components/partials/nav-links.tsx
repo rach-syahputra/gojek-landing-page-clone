@@ -1,4 +1,4 @@
-import NavLink from '../elements/NavLink'
+import NavLink from '../elements/nav-link'
 
 export default function NavLinks() {
   return (
